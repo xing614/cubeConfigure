@@ -1,0 +1,54 @@
+{
+  "nodes":[
+    {
+      "name": "主节点",
+      "symbol": "image://http://oow60tecr.bkt.clouddn.com/firewall.png",
+      "symbolSize": [40, 40],
+      "x": 600,
+      "y": 300,
+    },
+    {
+      "name":"节点1",
+      "symbol": "image://http://oow60tecr.bkt.clouddn.com/firewall.png",
+      "symbolSize": [40, 40],
+      "y": 400,
+      "x": 800,
+    },
+    {
+      "name": "节点2",
+      "symbol": "image://http://oow60tecr.bkt.clouddn.com/firewall.png",
+      "symbolSize": [40, 40],
+      "x": 800,
+      "y": 200
+    },
+    {
+      "name": "节点3",
+      "symbol": "image://http://oow60tecr.bkt.clouddn.com/firewall.png",
+      "symbolSize": [40, 40],
+      "x": 400,
+      "y": 200
+    },
+    {
+      "name": "节点4",
+      "symbol": "image://http://oow60tecr.bkt.clouddn.com/firewall.png",
+      "symbolSize": [40, 40],
+      "x": 400,
+      "y": 400
+    }
+  ],
+  "links":[
+    {
+          source: '主节点',
+          target: 1,
+      }, {
+          source: '主节点',
+          target: '节点2',
+      }, {
+          source: '主节点',
+          target: '节点3'
+      }, {
+          source: '主节点',
+          target: '节点4'
+      }
+  ]
+}
